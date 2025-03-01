@@ -86,6 +86,7 @@
             <li>Rowery</li>
             <li>Go karty</li>
             <li>Kajaki</li>
+        </ul> <!-- Close the missing ul tag -->
         <ul id="list4">
             <li>Drineczki</li>
             <li>Trip</li>
@@ -97,11 +98,15 @@
             <li>Squash</li>
         </ul>
     </div>
-
     <div class="container">
         <button onclick="pickRandomSentenceFromLists(['list1', 'list2'], 'list1')">Weekday</button>
         <button onclick="pickRandomSentenceFromLists(['list3', 'list4'], 'list3')">Weekend</button>
     </div>
+
+    <div class="container">
+        <img src="https://i.imgur.com/0gqgomA.jpeg" alt="Random Image" style="border: 2px solid black; max-width: 50%; height: auto;">
+    </div>
+    </main>
 
     <script>
         function pickRandomSentence(listId) {
@@ -136,9 +141,6 @@
     </script>
 </body>
 </html>
-<div class="container">
-    <img src="/home/szostak/Downloads/igunia.jpg" alt="Random Image" style="border: 2px solid black; max-width: 50%; height: auto;">
-</div>
 <style>
     button {
         border: 2px solid black;
